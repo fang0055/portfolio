@@ -1,14 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './MobileAppsCard.css';
 
 
 function MobileAppsCard(props) {
+    
+    const [isOver, setIsMouseOver] = useState(false)
 
   return(
     <div className='card'>
         <div className='cardImgCtn'>
-            <img src={props.img}
-            className='cardImg'/>
+            <img src= { isOver ? props.gif : props.img }
+            className='cardImg'
+            onMouseOver={ ()=> setIsMouseOver(true) }
+            onMouseOut={ ()=> setIsMouseOver(false) }
+            />
         </div>
 
         <div className='cardTitleCtn'>
