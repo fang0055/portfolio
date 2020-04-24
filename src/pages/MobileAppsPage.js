@@ -8,35 +8,43 @@ function MobileAppsPage(props) {
   const mobileAppsArray = [
     {
       id: 100,
-      title: 'Finder App',
-      img: 'https://6qgjpg.ch.files.1drv.com/y4mCuVzSTrlf_l94uabLGvrTfxWLmAvFhi-tZTiWJV8bh00T_0Hs-6lFWT6gaIcVC64wOv8gZGEnPkcInIA1ZA0IhchGQ3lMaflHDu-GPoPoCt2W2aCIeImuVA9rnTfPim7VLppLGL4insZnFrIeMJG9rYl6yLjTzv_jUTETwTkGQNExEufOPb_NfRNGZmWZ_6l8fmZzEjpH8ggUhwzMiO4Mw?width=576&height=1024&cropmode=none',
-      gif: 'https://hhbznw.ch.files.1drv.com/y4mWTiHLBtqq1jy_BqpRII9hBTKNdQRPxvZwgvvT2I99omezbgsxg1q6_xAtsLBTn-Pq6ygbeyycsyX1WWiiD_yXTA3Ag371Q2Gr2hW6ecTrbzU4Y1gMNgcjVoKYwjmuhKNlOyoo4CZvU-fso_6fw_bwLEtL8Q_zP3A2-Rzs7nPr5Jv3lWOHy20fsih7H-sCM4LEAZp21-5mdCdQm7masJQlA?width=494&height=1024&cropmode=none'
+      title: 'Finder',
+      img: 'https://el11ug.ch.files.1drv.com/y4mE6Dmd2-Q_zOuKgWEC5jlJZoMVChNti6aP-vhTVtGsuYSKW2JBaL6QxOMLsXh2lt-bxCWVPKRKYLRQTJKiHv19xlqSNlUKuPbDbi2xpxyX4IYvs_cqKivgn--QiUC9iDsv2Qzx9iwU0PFVvukEG6-vPSYHxqZZM6pWcqdwoEk4AsFUeJlROq5S_qMP1xBSC7sQvs4eZxVP2LRM1S-qI8Q8A?width=473&height=1024&cropmode=none',
+      gif: 'https://u1pgca.ch.files.1drv.com/y4myMl3LLyiCNZV9Op3CFDQ2Pny1RgMYRIX1D6eTeVGrmeTXUPFCXnWgz9x2UCzZuKOIta6tAPwOL0B-rA3vBUvwDAagikJUs3Yyoj__pOKbslEUTzZoSeT-SmYK1iqbWhC9iRcjL5HQm_zmOzZNbnfZJUsqjrbVKM9uoPI-kMZpm6F5-ZPOPuXA3CVT075HUAeyb_yxy5AlihUVK4ZcJI2fg?width=473&height=1024&cropmode=none',
+      repo: 'https://github.com/linkfang/finder'
     },
     {
       id: 200,
-      title: 'Player App',
-      img: 'https://sxj9tw.ch.files.1drv.com/y4mQogyEFM8ogTmkLv7imVl0g9SovfADGv6uk6rdiNKB0eHORyZXM_q9HMQaHT7fAuqG0lbuHzFw-2H7g9xSO_cgTtHmALDVT7Jp1KRoUMuVL24DjUPH1HEDFOb5RkxoM1OOoveiwrw8fKmPRm_1BgX1YoFpes5uSTxtrZeD-Ip96DguTHAONwuqWmOxiBKZ76aMXfcvGMvi267BYYAMSK9jQ?width=576&height=1024&cropmode=none',
-      gif: ''
+      title: 'Player',
+      img: 'https://6ggpia.ch.files.1drv.com/y4msGeTvCD8pPatnKAhloZUzWUCPsTx_oIlsabdw_GgVk-yyqVqcKzeyHa-ssTS8t8_lFUlE_N7M7fZIvxe1-_ErbqSHuxbgk5NTYYxxpQh2xDeEcXjr085fmYFzgIL8nfMChOE19cqzXvw_BfOP-q_ELhmuqSAVSnRo36-o1tsG2DLKs5MFh9wnv5THclxa4asq_0W4iGWXYmZAHtAM3j6tA?width=473&height=1024&cropmode=none',
+      gif: 'https://linkfang.github.io/portfolio/src/img/previewImgs/playerPre.gif',
+      repo: 'https://github.com/linkfang/player'
     },
     {
       id: 300,
-      title: 'Reminder App',
-      img: 'https://hhypiq.ch.files.1drv.com/y4mflVJsE6mAr-ma_pIU4Ld5PHVRrSjQ4kC3Xg6ieGKlFgsFllez3JHTlXfbr_xa2NZhoZ0qv82jcpySEsiBCTWeR8W1_SkxZhXSJvwQwgPc17XkMykSJkelDvlWA7CxgzXrrR3icYvrdc7eJt7KEloSn0bFRspCgMA2tAQMk3alFiOiTvU4oGVgeMXOOrKyIFOy9My6m0Uxq_fDY8XvEEaPA?width=573&height=1024&cropmode=none',
+      title: 'Tundra',
+      img: 'https://rdgwig.ch.files.1drv.com/y4maGezfgLiCfcrW1TmAjpqWms-QIp6jbvIiwzwYRTZ0Sq2gMZNRoDHXTe2jfCAWQ2OPPrhTnDkH5C6cvCGjVC0Ey_po-DH7uhoDVsqJqrjS-KXg-5LNQKh5ysfPBjafht3EVuI231h0z9hZYhUHYCiJrSzUmgHiFfAoGGzQNknnil9vEQ4Xy3u64QyF4QvwyZgQz-8rkrcgaHq08ysVlOi5g?width=472&height=1024&cropmode=none',
+      gif: 'https://linkfang.github.io/portfolio/src/img/previewImgs/tundraPre.gif',
+      repo: 'https://github.com/linkfang/tundra'
     },    
     {
       id: 400,
-      title: 'Reviewer App',
-      img: 'https://sxiyla.ch.files.1drv.com/y4mSURzFTAvWOrYmGxjRx-jAtQQ0hnNjC-sJT9REYopj_pBIkB3coe-z1OmQRFlxXi7zJUe7Ggl9JZLsZ9skOhEW6GvSISFyuhVFiYLOsxQUOwH08xvHyLCLgeY-E63AJwhi41-d03G5j6MnHsI3lJTF2J1iboB7feduk1azK7qN4-kec0oThLYivX_tIck4s2tqirpxy7Ml-6H9LnZRuMOMg?width=494&height=1024&cropmode=none',
+      title: 'Reviewer',
+      img: 'https://rdgb6a.ch.files.1drv.com/y4mmR5iOfcVGJhcLmInGbUNNJWyQz5EpAcVky46j20hiJcY08npLpwkj461gV7XZp9oT7_Wqt8gTsvLaBmH4mk92d8A-oTYBwTaIKpcBzkHO7leuftFYA7jyyB3BKQPcwPoPrXpl1hrJbNt7ngthT-SZIpES9JWLTTy3Xz4nT-Dhy0YHJOzuKG542SWQ7xQhNd3VMbizj9GdhCteiICc-vQpA?width=472&height=1024&cropmode=none',
+      gif: 'https://linkfang.github.io/portfolio/src/img/previewImgs/reviewerPre.gif',
+      repo: 'https://github.com/linkfang/reviewer'
     },
     {
       id: 500,
-      title: 'Reviewer App',
-      img: 'https://to1ucq.ch.files.1drv.com/y4mfJs_dO09Vb96ZrpczIdx-ShEgNI8b6D7I3q_EHaw1aD-z5_vWd1oT2k4Tl1Hw6t5e24j04LQTkMfg7M4ZXPZK6_ub6xI4B5vOehb4D2CdelHAIAXuRvRwuLtVfC_txYUQH-EhnvfDM0ZDjXT4RIx6TVMoZOuySc00uc0hNs7u-dP5e4r-5GNdEBsCVo5wDuxuZV1t3-ZF9jbY3VQFwa_6A?width=576&height=1024&cropmode=none',
+      title: 'Reminder',
+      img: 'https://el1g5q.ch.files.1drv.com/y4mLi2VpKiDJvXhZINbANMeY_B-4voWA9rH77iD1TTBJkHlygslykyYne-B3IjO3SU1I5isMz803ec7fhZKIjccPR-29Yqu4Ui67tp1pD30yC8iJ-XbG-dzuhgxbUfb4YReOJMqAhIFu49Jz6-34RWqJ0i7tZtL6la9y4yJO8P2whbpYxRlMMsQ8J1gYibwdD1Q5fxwb4zygoq2_4I2KX5GFA?width=473&height=1024&cropmode=none',
+      gif: 'https://linkfang.github.io/portfolio/src/img/previewImgs/playerPre.gif',
+      repo: 'https://github.com/linkfang/rememberall'
     }
   ]
 
   const cardList = mobileAppsArray.map(
-    card => <MobileAppsCard key={card.id} title={card.title} img={card.img} gif={card.gif}/>
+    card => <MobileAppsCard key={card.id} card={card}/>
   )
 
   return(

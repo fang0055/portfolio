@@ -1,15 +1,15 @@
 .cardsCtn {
     width: 90%;
-    margin-top: 4rem;
+    margin-top: 2.5rem;
 }
 
 .card {
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
-    width: 320px;
+    width: 290px;
     box-shadow: 1px 1px 20px hsla(180, 0%, 0%, 0.15);
     margin: 2rem;
-    height: 640px;
+    height: 696px;
     transition: all 0.25s ease-out;
 }
 
@@ -20,25 +20,42 @@
 
 }
 
-.cardTitleCtn {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: white;
-}
-
 .cardImgCtn{
-    width: 320px;
-    height: 570px;
+    width: 290px;
+    height: 630px;
     overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-start; */
 }
 
 .cardImg {
-    width: 320px;
+    width: 290px;
 }
+
+.cardTitleCtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
 
 .cardTitle {
     color: hsla(180, 0%, 30%, 1);
     font-weight: 600;
     font-size: 1.25rem;
+    margin-left: 2rem;
+}
+
+.repoBtn{
+    font-size: 1.15rem;
+    color: white;
+    background-color: hsla(180, 40%, 40%, 1);
+    padding: 5px 14px;
+    margin-right: 2rem;
+    cursor: pointer;
+    border-radius: 60px;
+    text-decoration: none;
 }

@@ -7,7 +7,6 @@
 
 .cardsCtn{
  width: 90%;
- margin-top: 4rem;
  display: flex;
  flex-wrap: wrap;
  align-items: flex-start;
