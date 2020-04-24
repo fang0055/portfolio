@@ -9,7 +9,7 @@ function MobileAppsPage(props) {
     {
       id: 100,
       title: 'Finder App',
-      img: 'https://6qgjpg.ch.files.1drv.com/y4mCuVzSTrlf_l94uabLGvrTfxWLmAvFhi-tZTiWJV8bh00T_0Hs-6lFWT6gaIcVC64wOv8gZGEnPkcInIA1ZA0IhchGQ3lMaflHDu-GPoPoCt2W2aCIeImuVA9rnTfPim7VLppLGL4insZnFrIeMJG9rYl6yLjTzv_jUTETwTkGQNExEufOPb_NfRNGZmWZ_6l8fmZzEjpH8ggUhwzMiO4Mw?width=576&height=1024&cropmode=none'
+      img: 'https://github.com/linkfang/portfolio/blob/master/src/img/test.gif'
 
     },
     {
