@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import {BrowserRouter, Route, Link, Switch} from 'react-router-dom'
 import './App.css';
 import './pages/MobileAppsPage'
@@ -11,6 +10,26 @@ import DesignPages from './pages/DesignPages';
 
 class App extends React.Component{
 
+  state={
+    currentPage: 1,
+    indicationItem: 'indicationLine'
+  }
+
+  activateMobileApps = ()=>{
+    this.setState({ currentPage: 1 })
+    this.setState({indicationItem: 'indicationLine activeMA'})
+  } 
+
+  activateWebApps = ()=>{
+    this.setState({ currentPage: 2 })
+    this.setState({indicationItem: 'indicationLine activeWA'})
+  } 
+
+  activateDesignWorks = ()=>{
+    this.setState({ currentPage: 3 })
+    this.setState({indicationItem: 'indicationLine activeDW'})
+  } 
+
   render(){
     return (
       <BrowserRouter basename='/portfolio'>
@@ -19,11 +38,26 @@ class App extends React.Component{
         </header>
 
         <nav>
-          <Link to='/mobileapps'>Mobile Apps</Link>
+          <span className={this.state.indicationItem}></span>
+          <Link to='/mobileapps'
+          onClick={ this.activateMobileApps }
+          className={ this.state.currentPage === 1 ? 'active' : '' }>
+            Mobile Apps
+          </Link>
 
-          <Link to='/webapps'>Web Apps</Link>
+          <Link
+          onClick={this.activateWebApps }
+          className={ this.state.currentPage === 2 ? "active" : '' }
+          to='/webapps'>
+            Web Apps
+          </Link>
 
-          <Link to='/designworks'>Design Works</Link>
+          <Link 
+          onClick={ this.activateDesignWorks }
+          className={ this.state.currentPage === 3 ? "active" : '' }
+          to='/designworks'>
+            Design Works
+          </Link>
         </nav>
 
         <Switch>

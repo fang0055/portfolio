@@ -1,0 +1,44 @@
+.cardsCtn {
+    width: 90%;
+    margin-top: 4rem;
+}
+
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    width: 320px;
+    box-shadow: 1px 1px 20px hsla(180, 0%, 0%, 0.15);
+    margin: 2rem;
+    height: 640px;
+    transition: all 0.25s ease-out;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 24px hsla(180, 0%, 0%, 0.2);
+    transform: scale(1.02);
+    transition: all 0.25s ease-out;
+
+}
+
+.cardTitleCtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.cardImgCtn{
+    width: 320px;
+    height: 570px;
+    overflow: hidden;
+}
+
+.cardImg {
+    width: 320px;
+}
+
+.cardTitle {
+    color: hsla(180, 0%, 30%, 1);
+    font-weight: 600;
+    font-size: 1.25rem;
+}

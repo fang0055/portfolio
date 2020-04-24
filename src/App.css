@@ -1,5 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 nav{
+  padding: 2rem 0;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  font-size: 1.25rem;
+  box-shadow: 0px 2px 20px hsla(180, 0%, 50%, 0.15);
+  background-color: white;
 }
+
+nav a{
+  margin: 0 2.5rem;
+  padding: 8px 0.75rem 5px 0.75rem;
+  text-decoration: none;
+  border-bottom: 3px solid hsla(180, 40%, 100%, 0);
+  color: hsla(180, 0%, 60%, 1.0);
+  font-weight: 500;
+  transition: all 0.3s ease-out;
+}
+
+.active{
+  color: hsla(180, 0%, 30%, 1.0);
+  transition: all 0.3s ease-out;
+}
+
+.indicationLine{
+  position: absolute;
+  margin: 0 2.5rem;
+  padding: 8px 0.75rem 5px 0.75rem;
+  border-bottom: 3px solid hsla(180, 40%, 40%, 1);
+  width: 100px;
+  transform: translate(-251px, 24px);
+}
+
+.activeMA{
+  width: 100px;
+  transform: translate(-251px, 24px);
+  transition: all 0.3s ease-out;
+}
+
+.activeWA{
+  width: 80px;
+  transform: translate(-46px, 24px);
+  transition: all 0.3s ease-out;
+}
+
+.activeDW{
+  width: 110px;
+  transform: translate(164px, 24px);
+  transition: all 0.3s ease-out;
+}
+
+/* nav a:hover{
+  color: hsla(180, 0%, 100%, 1.0);
+  background-color: hsla(180, 40%, 40%, 1.0);
+  border-radius: 2rem;
+  transition: all 0.3s ease-out;
+} */

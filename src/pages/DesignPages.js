@@ -1,11 +1,13 @@
 import React from 'react'
 
-function DesignPages(props) {
-    return(
-        <div>
-            <p>HI DWP</p>
-        </div>
-    )
+function DesignWorksPage(props) {
+  return(
+    <div className='main'>
+      <div className='cardsCtn'>
+        <p>HI DWP</p>
+      </div>
+    </div>
+  )
 }
 
-export default DesignPages
+export default DesignWorksPage
