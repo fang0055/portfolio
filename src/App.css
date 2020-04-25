@@ -55,10 +55,3 @@ nav a{
   transform: translate(164px, 24px);
   transition: all 0.3s ease-out;
 }
-
-/* nav a:hover{
-  color: hsla(180, 0%, 100%, 1.0);
-  background-color: hsla(180, 40%, 40%, 1.0);
-  border-radius: 2rem;
-  transition: all 0.3s ease-out;
-} */

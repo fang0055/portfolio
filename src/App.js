@@ -11,7 +11,7 @@ import DesignPages from './pages/DesignPages';
 class App extends React.Component{
 
   state={
-    currentPage: 1,
+    currentPage: 0,
     indicationItem: 'indicationLine'
   }
 
@@ -28,7 +28,33 @@ class App extends React.Component{
   activateDesignWorks = ()=>{
     this.setState({ currentPage: 3 })
     this.setState({indicationItem: 'indicationLine activeDW'})
-  } 
+  }
+
+  componentDidMount(){
+    let currentPageName = window.location.href
+    let index = currentPageName.lastIndexOf('/')
+    currentPageName = currentPageName.slice(index+1, currentPageName.length)
+    
+    switch (currentPageName) {
+      case 'mobileapps':
+        this.setState({currentPage: 1})
+        this.setState({indicationItem: 'indicationLine activeMA'})
+        break;
+
+      case 'webapps':
+        this.setState({ currentPage: 2 })
+        this.setState({indicationItem: 'indicationLine activeWA'})
+        break;
+
+      case 'designworks':
+        this.setState({currentPage: 3})
+        this.setState({indicationItem: 'indicationLine activeDW'})
+        break;
+    
+      default:
+        break;
+    }
+  }
 
   render(){
     return (

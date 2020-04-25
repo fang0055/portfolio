@@ -2,40 +2,37 @@
     width: 90%;
     margin-top: 2.5rem;
     margin-bottom: 2rem;
-
 }
 
-.card {
+.webCard {
     border-radius: 10px;
     overflow: hidden;
-    width: 290px;
+    width: 710px;
     box-shadow: 1px 1px 20px hsla(180, 0%, 0%, 0.15);
     margin: 2rem;
-    height: 696px;
+    height: 420px;
     transition: all 0.25s ease-out;
 }
 
-.card:hover{
+.webCard:hover{
     box-shadow: 2px 2px 24px hsla(180, 0%, 0%, 0.2);
     transform: scale(1.02);
     transition: all 0.25s ease-out;
 
 }
 
-.cardImgCtn{
-    width: 290px;
-    height: 630px;
+.webCardImgCtn{
+    border-bottom: 3px solid hsla(180, 32%, 78%, 1);
+    width: 710px;
+    height: 355px;
     overflow: hidden;
-    /* display: flex;
-    justify-content: center;
-    align-items: flex-start; */
 }
 
-.cardImg {
-    width: 290px;
+.webCardImg {
+    width: 710px;
 }
 
-.cardTitleCtn {
+.webCardTitleCtn {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -44,14 +41,14 @@
 }
 
 
-.cardTitle {
+.webCardTitle {
     color: hsla(180, 0%, 30%, 1);
     font-weight: 600;
     font-size: 1.25rem;
     margin-left: 2rem;
 }
 
-.repoBtn{
+.webRepoBtn{
     font-size: 1.15rem;
     color: white;
     background-color: hsla(180, 40%, 40%, 1);
