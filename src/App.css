@@ -55,3 +55,34 @@ nav a{
   transform: translate(164px, 24px);
   transition: all 0.3s ease-out;
 }
+
+@media (max-width: 680px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a{
+    margin: 0.3rem 0;
+  }
+
+  .indicationLine{
+    width: 100px;
+    transform: translate(-40px, -38px);
+  }
+
+  .activeMA{
+    width: 100px;
+    transform: translate(-40px, -38px);
+  }
+  
+  .activeWA{
+    width: 80px;
+    transform: translate(-40px, 12px);
+  }
+  
+  .activeDW{
+    width: 110px;
+    transform: translate(-40px, 62px);
+  }
+}
