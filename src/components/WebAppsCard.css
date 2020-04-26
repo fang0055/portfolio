@@ -1,13 +1,7 @@
-.cardsCtn {
-    width: 90%;
-    margin-top: 2.5rem;
-    margin-bottom: 2rem;
-}
-
 .webCard {
     border-radius: 10px;
     overflow: hidden;
-    width: 710px;
+    width: 575px;
     box-shadow: 1px 1px 20px hsla(180, 0%, 0%, 0.15);
     margin: 2rem;
     height: 420px;
@@ -23,13 +17,13 @@
 
 .webCardImgCtn{
     border-bottom: 3px solid hsla(180, 32%, 78%, 1);
-    width: 710px;
+    width: 575px;
     height: 355px;
     overflow: hidden;
 }
 
 .webCardImg {
-    width: 710px;
+    width: 575px;
 }
 
 .webCardTitleCtn {

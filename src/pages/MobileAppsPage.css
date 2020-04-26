@@ -1,14 +1,15 @@
-.main{
+.main {
     width: 100%;
     display: flex;
     justify-content: center;
     padding-bottom: 2rem;
 }
 
-.cardsCtn{
- width: 90%;
- display: flex;
- flex-wrap: wrap;
- align-items: flex-start;
- justify-content: center;
+.cardsCtn {
+    margin-top: 2rem;
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
 }

@@ -14,20 +14,20 @@ function DesignWorksPage(props) {
     },
     {
       id: 200,
-      title: 'Instant Tutor',
-      img: 'https://6ge4bw.ch.files.1drv.com/y4m25pA95z5c8acErqR5VXpoAJYBosalMnwcMSzRtrzG-ZHqVAD8ebfBD28pCQJDrBNxwXdk8zdg1SzRgUfpXi26NSnzdefBZJgVzm66IszzSLRRSASe6UqX-m29hfQSEC583ks-atrOYq0gC7DqtVKB44S7_oaXbyQ42XLodeLU44Ux65jVPXv3h9LedbAUi4M-bOMTljPH7tsnS5CnY5H_g?width=485&height=1024&cropmode=none',
-      hover: 'https://hxa3tg.ch.files.1drv.com/y4mrU_4TfT1bHYxOf9ApQiz0iocVBXdxIVV5kMJ8pHqdgdret2vP4EqdILOeDbpjH6yd3cj5zDUPMak8GY2f5KG9BKzlG_MIPTGGwAjrzRfoUPH7qtLkg7WSw-FFbtzVFi5MBKamSUyqBaiw31m1EHmZwAcq_8IeTPY0YhjpiYJyIMlA6OdX4aPPu7RK_SURdAVwtK124Zkc6Na_GY4AyCQZg?width=485&height=1024&cropmode=none',
-      preview: 'https://1drv.ms/u/s!Apc5AcFl00C1y6MbEEkLab05ztJmFA?e=VwpWDU',
-      typeTall: true
-    },  
-    {
-      id: 300,
       title: 'Self-checkout',
       img: 'https://rnekxq.ch.files.1drv.com/y4mQQh72UDbhQ8AUhlhQQebsKSUp7h1jT0uV1zFFh_WZhSsBnhruCcEk-lfw1qNZLSCWaDwcF-jgiOkmVKMeWpVd2ZFeYDWXQTgw-UgEUWZaVQl8QTgzOQfZomRVjoph-_gCRDo2W6NSAMYKctQdJ6OjuUzGPY1anLqHvMp0hn5rPCXy7_IePELbBwHAM-Z1flOueGGWkOB0fi4z9ehRXMlBA?width=1024&height=768&cropmode=none',
       hover: 'https://rnhnla.ch.files.1drv.com/y4md_BJdIpG4ElvF4Ry7bp5fYZgl2l0-763qaNPLueup-Kt6SyiSkk40l4nLq-ZclySwBZaA7po8OyYeVyVxNU2nfBEL5coo1XjAAnr3Vq4grYIfkRn8oLKRTscDVu88H4JCf4gx83_CfFnVvLzTm9CNAtgE-2PhlGreWCBatiya32Er8w-fKBIS-ENOa-eZUTXvES73YkE1TqIVXRSxut3Nw?width=1024&height=768&cropmode=none',
       preview: 'https://1drv.ms/u/s!Apc5AcFl00C1y59Y9Ee8NtvfZyhtaw?e=g3TjDg',
       typeTall: false
     },
+    {
+      id: 300,
+      title: 'Instant Tutor',
+      img: 'https://6ge4bw.ch.files.1drv.com/y4m25pA95z5c8acErqR5VXpoAJYBosalMnwcMSzRtrzG-ZHqVAD8ebfBD28pCQJDrBNxwXdk8zdg1SzRgUfpXi26NSnzdefBZJgVzm66IszzSLRRSASe6UqX-m29hfQSEC583ks-atrOYq0gC7DqtVKB44S7_oaXbyQ42XLodeLU44Ux65jVPXv3h9LedbAUi4M-bOMTljPH7tsnS5CnY5H_g?width=485&height=1024&cropmode=none',
+      hover: 'https://hxa3tg.ch.files.1drv.com/y4mrU_4TfT1bHYxOf9ApQiz0iocVBXdxIVV5kMJ8pHqdgdret2vP4EqdILOeDbpjH6yd3cj5zDUPMak8GY2f5KG9BKzlG_MIPTGGwAjrzRfoUPH7qtLkg7WSw-FFbtzVFi5MBKamSUyqBaiw31m1EHmZwAcq_8IeTPY0YhjpiYJyIMlA6OdX4aPPu7RK_SURdAVwtK124Zkc6Na_GY4AyCQZg?width=485&height=1024&cropmode=none',
+      preview: 'https://1drv.ms/u/s!Apc5AcFl00C1y6MbEEkLab05ztJmFA?e=VwpWDU',
+      typeTall: true
+    },  
     {
       id: 400,
       title: 'Flower delivery',
