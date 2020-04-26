@@ -6,19 +6,19 @@ function DesignWorksPage(props) {
   const designWorksArray = [
     {
       id: 100,
-      title: 'Group Study',
-      img: 'https://6gfgqq.ch.files.1drv.com/y4mPLcQ6PQ_3CQCxfP0_nCZl3JWYKDxNvk3w7OUag_99kY2aD4BBJNosZMQEOnjk88liXMAiIVPBWDacskSRcLzxKISVaYze7jiogByIf59iQlTPQuRlwpK_JTNwhi4hpjWc_89CmQ8vak7saaOcXHHfH-liomtS_agawBWWfluEMxSlPinfC9dKo_V7QWcXUBtYIUqzdxxHA06_5KB3Wh7SQ?width=485&height=1024&cropmode=none',
-      hover: 'https://6ggyzw.ch.files.1drv.com/y4mJjHJjesx2dbUn9YrjTWHcE-JBwzqcNPjCow_iH3MHQ280_RVlVZqx0fksoV5-x-pdRdjoKWCrZ3L2HTkkcvl_LUMpxiZDeOIQPM3ox8Wh-ZpGmntLY6LyZu8yB5rzEE7c7dmySv9Z1Pr1xdQQF_bhS4XJmq4dZ7spLBFfTsHnXgPIEB4LY3JxqAOjE8nWweC9shQtyHZcaRPzmDb0wHtzw?width=485&height=1024&cropmode=none',
-      preview: 'https://1drv.ms/u/s!Apc5AcFl00C1y6MUYC6DELK52tVEug?e=Q3mPwk',
-      typeTall: true
-    },
-    {
-      id: 200,
       title: 'Self-checkout',
       img: 'https://rnekxq.ch.files.1drv.com/y4mQQh72UDbhQ8AUhlhQQebsKSUp7h1jT0uV1zFFh_WZhSsBnhruCcEk-lfw1qNZLSCWaDwcF-jgiOkmVKMeWpVd2ZFeYDWXQTgw-UgEUWZaVQl8QTgzOQfZomRVjoph-_gCRDo2W6NSAMYKctQdJ6OjuUzGPY1anLqHvMp0hn5rPCXy7_IePELbBwHAM-Z1flOueGGWkOB0fi4z9ehRXMlBA?width=1024&height=768&cropmode=none',
       hover: 'https://rnhnla.ch.files.1drv.com/y4md_BJdIpG4ElvF4Ry7bp5fYZgl2l0-763qaNPLueup-Kt6SyiSkk40l4nLq-ZclySwBZaA7po8OyYeVyVxNU2nfBEL5coo1XjAAnr3Vq4grYIfkRn8oLKRTscDVu88H4JCf4gx83_CfFnVvLzTm9CNAtgE-2PhlGreWCBatiya32Er8w-fKBIS-ENOa-eZUTXvES73YkE1TqIVXRSxut3Nw?width=1024&height=768&cropmode=none',
       preview: 'https://1drv.ms/u/s!Apc5AcFl00C1y59Y9Ee8NtvfZyhtaw?e=g3TjDg',
       typeTall: false
+    },
+    {
+      id: 200,
+      title: 'Group Study',
+      img: 'https://6gfgqq.ch.files.1drv.com/y4mPLcQ6PQ_3CQCxfP0_nCZl3JWYKDxNvk3w7OUag_99kY2aD4BBJNosZMQEOnjk88liXMAiIVPBWDacskSRcLzxKISVaYze7jiogByIf59iQlTPQuRlwpK_JTNwhi4hpjWc_89CmQ8vak7saaOcXHHfH-liomtS_agawBWWfluEMxSlPinfC9dKo_V7QWcXUBtYIUqzdxxHA06_5KB3Wh7SQ?width=485&height=1024&cropmode=none',
+      hover: 'https://6ggyzw.ch.files.1drv.com/y4mJjHJjesx2dbUn9YrjTWHcE-JBwzqcNPjCow_iH3MHQ280_RVlVZqx0fksoV5-x-pdRdjoKWCrZ3L2HTkkcvl_LUMpxiZDeOIQPM3ox8Wh-ZpGmntLY6LyZu8yB5rzEE7c7dmySv9Z1Pr1xdQQF_bhS4XJmq4dZ7spLBFfTsHnXgPIEB4LY3JxqAOjE8nWweC9shQtyHZcaRPzmDb0wHtzw?width=485&height=1024&cropmode=none',
+      preview: 'https://1drv.ms/u/s!Apc5AcFl00C1y6MUYC6DELK52tVEug?e=Q3mPwk',
+      typeTall: true
     },
     {
       id: 300,

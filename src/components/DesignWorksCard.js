@@ -12,7 +12,7 @@ function DesignWorksCard(props) {
         <div className={props.card.typeTall ? 'designCardImgCtnTall' : 'designCardImgCtn'}>
           <a href={ props.card.preview } target="blank">
             <img src= { isOver ? props.card.hover : props.card.img }
-            className={props.card.typeTall ? 'designCardImgTall' : 'designCardImg'}/>
+            className={props.card.typeTall ? 'designCardImgTall' : 'designCardImg'} alt='image of desgin wokrs'/>
           </a>
         </div>
 

@@ -12,7 +12,7 @@ function MobileAppsCard(props) {
     onMouseOut={ ()=> setIsMouseOver(false) } >
         <div className='cardImgCtn'>
             <img src= { isOver ? props.card.gif : props.card.img }
-            className='cardImg'/>
+            className='cardImg' alt='image of mobile apps'/>
         </div>
 
         <div className='cardTitleCtn'>

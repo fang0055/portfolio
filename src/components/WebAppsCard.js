@@ -13,7 +13,7 @@ function WebAppsCard(props) {
         <div className='webCardImgCtn'>
           <a href={ props.card.preview } target="blank">
             <img src= { isOver ? props.card.hover : props.card.img }
-            className='webCardImg'/>
+            className='webCardImg' alt='image of web apps'/>
           </a>
         </div>
 
