@@ -11,7 +11,7 @@ function MobileAppsPage(props) {
       title: 'Fitted',
       img: 'https://t43tqa.ch.files.1drv.com/y4meayeUcYiJc82a1BJJWRCmcMDglROa25IFWZ8pnHucUrkdeYZGn3uBsx0ebFREWGVq9dz8PlHRGrjOMqVmkOdYahESc8Nb3cPRqFB3lX31pynttZtk_kCOLvUmZcVtc2gC3AOQn63Irv6KF9bC1ePrle-gRR_cVYFNhJc_Dc3ZTryRFgIMs7U335_jHuxfVSO4MX4yjps1h3IBTRLV5KlMw?width=473&height=1024&cropmode=none',
       gif: 'https://linkfang.github.io/portfolio-gifs/fitted.gif',
-      repo: 'https://github.com/zhou0160/react-native-yelp'
+      repo: 'https://github.com/linkfang/Fitted-DevJar_iOS_App'
     },
     {
       id: 200,
