@@ -4,7 +4,7 @@
     width: 575px;
     box-shadow: 1px 1px 20px hsla(180, 0%, 0%, 0.15);
     margin: 2rem;
-    height: 420px;
+    height: 383px;
     transition: all 0.25s ease-out;
 }
 
@@ -18,7 +18,7 @@
 .webCardImgCtn{
     border-bottom: 3px solid hsla(180, 32%, 78%, 1);
     width: 575px;
-    height: 355px;
+    height: 315px;
     overflow: hidden;
 }
 
