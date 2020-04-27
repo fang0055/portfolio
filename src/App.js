@@ -1,12 +1,13 @@
-import React from 'react';
+import React from 'react'
 import {BrowserRouter, Route, Link, Switch} from 'react-router-dom'
-import './App.css';
+import './App.css'
 import './pages/MobileAppsPage'
 import './pages/WebAppsPage'
 import './pages/DesignPages'
-import MobileAppsPage from './pages/MobileAppsPage';
-import WebAppsPage from './pages/WebAppsPage';
-import DesignPages from './pages/DesignPages';
+import MobileAppsPage from './pages/MobileAppsPage'
+import WebAppsPage from './pages/WebAppsPage'
+import DesignPages from './pages/DesignPages'
+import {Helmet} from 'react-helmet'
 
 class App extends React.Component{
 
@@ -59,6 +60,9 @@ class App extends React.Component{
   render(){
     return (
       <BrowserRouter basename='/portfolio'>
+        <Helmet>
+          <title>Zhou's Portfolio</title>
+        </Helmet>
         <header className='appHeader'>
 
         </header>
