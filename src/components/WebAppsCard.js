@@ -19,7 +19,7 @@ function WebAppsCard(props) {
 
         <div className='webCardTitleCtn'>
             <p className='webCardTitle'>{props.card.title}</p>
-            <a className='repoBtn' href={props.card.repo} target='blank'>Repo</a>
+            <a className='webRepoBtn' href={props.card.repo} target='blank'>Repo</a>
         </div>
     </div>
   )

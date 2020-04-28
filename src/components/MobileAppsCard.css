@@ -30,6 +30,7 @@
 }
 
 .cardTitleCtn {
+    margin-top: 12px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -39,10 +40,19 @@
 
 
 .cardTitle {
+    display: flex;
+    flex-direction: column;
     color: hsla(180, 0%, 30%, 1);
     font-weight: 600;
     font-size: 1.25rem;
     margin-left: 1.5rem;
+}
+
+.language{
+    font-size: 0.9rem;
+    font-weight: 100;
+    color: hsla(180, 0%, 70%, 1);
+    margin-top: 1px;
 }
 
 .repoBtn{

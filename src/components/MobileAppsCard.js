@@ -16,7 +16,10 @@ function MobileAppsCard(props) {
         </div>
 
         <div className='cardTitleCtn'>
-            <p className='cardTitle'>{props.card.title}</p>
+            <div className='cardTitle'>
+              <span>{props.card.title}</span>
+              <span className='language'>{props.card.language}</span>
+            </div>
             <a className='repoBtn' href={props.card.repo} target='blank'>Repo</a>
         </div>
     </div>

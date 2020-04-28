@@ -6,7 +6,7 @@ function WebAppsPage(props) {
   const webAppsArray = [
     {
       id: 100,
-      title: 'Hanson Agrochemical Consulting Official Website',
+      title: 'Hanson Agrochemical Consulting Website',
       img: 'https://el36wq.ch.files.1drv.com/y4mK_tVmQHOf9YtWD396p6D4uju4wkN_9MeyT3H7_P1DLVyJFLIZ3iO4LzKMdj_smdZLeyn7vysw8MDWL_rqkz4wmAcMWf7idI9ZXb_hzBV7ykRXi9kZK7vdzICvFCrzz9MMYBnowqY--_41o8L-xsuEh7CVinAjNHA5jfafqc1I1HN4aDAb4Z_y9H_AVa6EQNJE3FpYjEUGhGHmx9PGrpXdw?width=1024&height=520&cropmode=none',
       hover: 'https://linkfang.github.io/portfolio-gifs/hanson.gif',
       repo: 'https://github.com/linkfang/hansonagrochemical',
