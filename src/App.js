@@ -37,7 +37,10 @@ class App extends React.Component{
     currentPageName = currentPageName.slice(index+1, currentPageName.length)
     
     switch (currentPageName) {
+
       case 'mobileapps':
+      case 'portfolio':
+      case '':
         this.setState({currentPage: 1})
         this.setState({indicationItem: 'indicationLine activeMA'})
         break;
