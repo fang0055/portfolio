@@ -55,7 +55,8 @@
     margin-top: 1px;
 }
 
-.repoBtn{
+.repoBtn,
+.repoBtnGray{
     font-size: 1.15rem;
     color: white;
     background-color: hsla(180, 40%, 40%, 1);
@@ -64,4 +65,9 @@
     cursor: pointer;
     border-radius: 60px;
     text-decoration: none;
+}
+
+.repoBtnGray{
+    background-color: hsla(180, 0%, 40%, 1);
+    cursor: default;
 }

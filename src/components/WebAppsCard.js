@@ -19,7 +19,9 @@ function WebAppsCard(props) {
 
         <div className='webCardTitleCtn'>
             <p className='webCardTitle'>{props.card.title}</p>
-            <a className='webRepoBtn' href={props.card.repo} target='blank'>Repo</a>
+            <a className='webRepoBtn' href={props.card.repo} target='blank'>
+              { props.card.isPrivate ? "Preview" : "Repo" }
+              </a>
         </div>
     </div>
   )
