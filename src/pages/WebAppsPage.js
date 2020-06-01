@@ -11,16 +11,18 @@ function WebAppsPage(props) {
       hover: 'https://linkfang.github.io/portfolio-gifs/cheerup.gif',
       repo: 'https://linkcheerup.azurewebsites.net/',
       preview: 'https://linkcheerup.azurewebsites.net/',
-      isPrivate: true
+      isPrivate: true,
+      moreInfo: "React, Spotify API, Azure"
     },
     {
       id: 100,
-      title: 'Hanson Agrochemical Consulting Website',
+      title: 'Hanson Agrochemical Consulting',
       img: 'https://el36wq.ch.files.1drv.com/y4mK_tVmQHOf9YtWD396p6D4uju4wkN_9MeyT3H7_P1DLVyJFLIZ3iO4LzKMdj_smdZLeyn7vysw8MDWL_rqkz4wmAcMWf7idI9ZXb_hzBV7ykRXi9kZK7vdzICvFCrzz9MMYBnowqY--_41o8L-xsuEh7CVinAjNHA5jfafqc1I1HN4aDAb4Z_y9H_AVa6EQNJE3FpYjEUGhGHmx9PGrpXdw?width=1024&height=520&cropmode=none',
       hover: 'https://linkfang.github.io/portfolio-gifs/hanson.gif',
       repo: 'https://github.com/linkfang/hansonagrochemical',
       preview: 'http://www.hansonagrochemical.com/',
-      isPrivate: false
+      isPrivate: false,
+      moreInfo: "Alibaba Cloud"
     },
     {
       id: 200,
@@ -29,7 +31,8 @@ function WebAppsPage(props) {
       hover: 'https://ev12cw.ch.files.1drv.com/y4mViVQidiexTFTz0026fF2TT_8_mb2TEo7Yc7TeWViS4ua8IMtKX7VENWJQx84LBgGG3CdxDLgoGUJnLSdpT6yeH3wDYKpgN2iHTJcLHyIdpu5tnxcCcbbU0HL2hGhSnQovprRTRmgY0GRaKi7HvEm9TACFoV_kgMGIW0Q8vHWMnk4PPv6kS0LRe2PuwlKJt9jzOJgjfo6J49_huCHW-TzJw?width=1024&height=568&cropmode=none',
       repo: 'https://github.com/linkfang/pizzaShop',
       preview: 'https://linkfang.github.io/pizzaShop/index.html',
-      isPrivate: false
+      isPrivate: false,
+      moreInfo: "Edumedia Server"
     },  
     {
       id: 300,
@@ -38,7 +41,8 @@ function WebAppsPage(props) {
       hover: 'https://linkfang.github.io/portfolio-gifs/movie.gif',
       repo: 'https://github.com/linkfang/API-Project',
       preview: 'https://linkfang.github.io/API-Project/',
-      isPrivate: false
+      isPrivate: false,
+      moreInfo: "The MovieDB API"
     },
     {
       id: 400,
@@ -47,7 +51,8 @@ function WebAppsPage(props) {
       hover: 'https://linkfang.github.io/portfolio-gifs/personalWebsite.gif',
       repo: 'https://github.com/linkfang/Bootstrap-Project-Link',
       preview: 'https://linkfang.github.io/Bootstrap-Project-Link/',
-      isPrivate: false
+      isPrivate: false,
+      moreInfo: "Bootstrap"
     }
   ]
 
