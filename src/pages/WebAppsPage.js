@@ -7,8 +7,8 @@ function WebAppsPage(props) {
     {
       id: 500,
       title: 'Cheer Up',
-      img: 'https://uz7f3g.ch.files.1drv.com/y4mJGPUwNR7eYZMfvgbY8OzQfVFcOVNaQH-bitWJavNYDx6dhC8RrVFX7UHpKSYCaRWDDsdIO7mLurj2dNpkiHp2nKld-bKRxVF1tOB4HuJPEINntRgt5HjTOIp1-T-R4RH5mEb9ksBmHfDo3LseycZ3_N3HhvWfCt93l7PXVk07-j-PJx7BIMrUahpbPQvMJThmbYs87PXYHey5KtHWFrNRQ?width=1024&height=612&cropmode=none',
-      hover: 'https://linkfang.github.io/portfolio-gifs/cheerup.gif',
+      img: 'https://chi01pap002files.storage.live.com/y4m2jmLALW6l4ijSNxlSWtU2_n-J3KjyiitImIxUYj7rLijnGr4lrrKtBOM513Gqb-GNgeTx6p40SpWJIIJs-USVm4ZuopQDJt5yezQuYvifE5enjo0EgSrywwAh-vsqaZVcrc8gtBbNMsQkDK_YR_9VS6IvO_bVKUecTjga_GmU35GHJWej_DUBp0opBiVVznN?width=660&height=394&cropmode=none',
+      hover: 'https://github.com/linkfang/portfolio-gifs/blob/master/cheerup.gif?raw=true',
       repo: 'https://linkcheerup.azurewebsites.net/',
       preview: 'https://linkcheerup.azurewebsites.net/',
       isPrivate: true,
@@ -17,18 +17,18 @@ function WebAppsPage(props) {
     {
       id: 100,
       title: 'Hanson Agrochemical Consulting',
-      img: 'https://el36wq.ch.files.1drv.com/y4mK_tVmQHOf9YtWD396p6D4uju4wkN_9MeyT3H7_P1DLVyJFLIZ3iO4LzKMdj_smdZLeyn7vysw8MDWL_rqkz4wmAcMWf7idI9ZXb_hzBV7ykRXi9kZK7vdzICvFCrzz9MMYBnowqY--_41o8L-xsuEh7CVinAjNHA5jfafqc1I1HN4aDAb4Z_y9H_AVa6EQNJE3FpYjEUGhGHmx9PGrpXdw?width=1024&height=520&cropmode=none',
-      hover: 'https://linkfang.github.io/portfolio-gifs/hanson.gif',
+      img: 'https://chi01pap002files.storage.live.com/y4mZ16E8P2rPzKgQWg15hj87LMJTWZg9qoiuVLo1m0xcVSkIHeLeN_6UGq1wurEJ113M5oiYuT5x0JQIILY2KQz7tD3zRfejNAmHXDTgPKvcz-GuRAFdNj__ixl9gNgEtQKCRowl_AHl_BXhh335E7LrtppLGX4KmkPeo7kxfdq6r5BS859R9BMjB-xcvZpd6m6?width=660&height=335&cropmode=none',
+      hover: 'https://github.com/linkfang/portfolio-gifs/blob/master/hanson.gif?raw=true',
       repo: 'https://github.com/linkfang/hansonagrochemical',
       preview: 'http://www.hansonagrochemical.com/',
       isPrivate: false,
-      moreInfo: "Alibaba Cloud"
+      moreInfo: "GitHub pages using custom domain"
     },
     {
       id: 200,
       title: 'Pizza Shop Management System',
-      img: 'https://ev0r6a.ch.files.1drv.com/y4mfqImOoW9rP0YPmrcOPs-5yhyZZ3WIuDTHH3g3u-Dkd6Aag0VlYJsef6r9PovlagpA0WJKnPk1D0NZlF36utkCB6hPJ3dQyUfXluDKF77SdPkA5Not49u-SJMiXjUZeidu6J3AgDKKxjfRXtIdb1fgLkhez9ntJtYoUQllA6yamPsT32rBAhEcRe3cRmmubwZPaZrXDOZW7Ximl4-EpGy8A?width=1024&height=570&cropmode=none',
-      hover: 'https://ev12cw.ch.files.1drv.com/y4mViVQidiexTFTz0026fF2TT_8_mb2TEo7Yc7TeWViS4ua8IMtKX7VENWJQx84LBgGG3CdxDLgoGUJnLSdpT6yeH3wDYKpgN2iHTJcLHyIdpu5tnxcCcbbU0HL2hGhSnQovprRTRmgY0GRaKi7HvEm9TACFoV_kgMGIW0Q8vHWMnk4PPv6kS0LRe2PuwlKJt9jzOJgjfo6J49_huCHW-TzJw?width=1024&height=568&cropmode=none',
+      img: 'https://chi01pap002files.storage.live.com/y4m0-aDBf3pr5r2bny1a-_MzhKIBHC0S875quANiBORTLprOXyLAO0KNa0Kga_pS8YWp0wJ8JT7KW0sGx6AVR-i-KcfB-TIkqdjivo4U8SMWHAmPf8RXQ0NWXoM3ZcbAbvXviF4GYIxtPoUI_p9A6Pm28B3Do4uwvey9VCSbDL94LjBi7w4zrDSDU2JzHauZGLd?width=660&height=367&cropmode=none',
+      hover: 'https://chi01pap002files.storage.live.com/y4mwlat35hdQlO5doz5QPqMmPknj80fqGHXQU0VN1IxkKKPV_CHMzwvh5dwoMrDpmKQNUeVoy8AJYaixxstMTd2NDXNDIXE6_xin5t6vKAdtK5w-6DfL2SGOdN35g6Z5X7IFdZVgkxoCuCc_u7G45vYVxGQQTy8eiYHvQRVP-K7s-9QS4mpw1VYS5znwgcCezpN?width=660&height=366&cropmode=none',
       repo: 'https://github.com/linkfang/pizzaShop',
       preview: 'https://linkfang.github.io/pizzaShop/index.html',
       isPrivate: false,
@@ -37,8 +37,8 @@ function WebAppsPage(props) {
     {
       id: 300,
       title: 'Movie Recommendation Website',
-      img: 'https://ulpa4g.ch.files.1drv.com/y4mfoNrFLcRDhyr6uJ1RjqBkqXqWQfP-jBk3IBtl4TGs1QBe6Ln7dUgoapMOMezWAw6jR4a4sE2SAtjyb-izR69HFDn7ID7kOY6uiLWdQPUiTQyXQQCA5WY4RcJalmG9qkWZtwusRwribx6hOW6R0AToyu7404FwV3v9NNQ1CFsPzL7cgoue88ld1xRzYMlyYv2X3kwUelzEh5va4MB5iOLHw?width=1024&height=562&cropmode=none',
-      hover: 'https://linkfang.github.io/portfolio-gifs/movie.gif',
+      img: 'https://chi01pap002files.storage.live.com/y4m6zJAlIwcbs2NLYT-KnNQX0x59RMtjPE4foVDQuDhRD0Ze0J5H_Q4ncsz73omdploMiVzakArMcnmBRqNz8A6b-RClXO4TGwVZqjKPvYX2d0PLjf76oh-uj2jCzxmrTGLp5Erx15ZJFe03a0UnwfTWyLiIWtq8F5CqmX9xrNQneRaSjfh1jWedbh-lUr1tKkJ?width=660&height=362&cropmode=none',
+      hover: 'https://github.com/linkfang/portfolio-gifs/blob/master/movie.gif?raw=true',
       repo: 'https://github.com/linkfang/API-Project',
       preview: 'https://linkfang.github.io/API-Project/',
       isPrivate: false,
@@ -47,8 +47,8 @@ function WebAppsPage(props) {
     {
       id: 400,
       title: 'Personal Website',
-      img: 'https://ulqewq.ch.files.1drv.com/y4mXVzMfdF8MbrGetv0nX49ei2BFeVpqPPpuEWcVw_K73L6EwkZrIKf2OP_XnQsNqIaGvZqiJHdEyADm4ioNJNmLrIzrOiVt_KU7tyQ-VkZlrlJUjMCs9kNkZ4ybypBr9FF5iTdTk5v17ukjVTK--HAmrXNKjYcZ6Kaj-soK46kcGOorSSZXUJoy9dcdgkY16Y3rRcmPd31hSi6GcVWv7GC_w?width=1024&height=575&cropmode=none',
-      hover: 'https://linkfang.github.io/portfolio-gifs/personalWebsite.gif',
+      img: 'https://chi01pap002files.storage.live.com/y4mSwZIJxxhD9IRyoZbsjfM7JgAY5z0gVbveNz3kQmFNYihw2KUCA2-vVE0CSRjX5iYKiMoC_eL-lO1sLFrW9WFi6QAIwn7RHxpGWJNPZwopfKGkocbVbBoGDVCqztI0LjlXMlbM6P2CVdHB2GkCDjs8o9YwSS137o3u-sNMrl_1WbhsDY2QVpXpmdOqiHAnz3g?width=660&height=371&cropmode=none',
+      hover: 'https://github.com/linkfang/portfolio-gifs/blob/master/personalWebsite.gif?raw=true',
       repo: 'https://github.com/linkfang/Bootstrap-Project-Link',
       preview: 'https://linkfang.github.io/Bootstrap-Project-Link/',
       isPrivate: false,
