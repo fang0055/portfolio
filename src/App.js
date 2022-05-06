@@ -1,116 +1,109 @@
-import React from 'react'
-import {BrowserRouter, Route, Link, Switch} from 'react-router-dom'
-import './App.css'
-import './pages/MobileAppsPage'
-import './pages/WebAppsPage'
-import './pages/DesignPages'
-import MobileAppsPage from './pages/MobileAppsPage'
-import WebAppsPage from './pages/WebAppsPage'
-import DesignPages from './pages/DesignPages'
-import {Helmet} from 'react-helmet'
+import React from "react";
+import { HashRouter, Route, Link, Switch } from "react-router-dom";
+import "./App.css";
+import "./pages/MobileAppsPage";
+import "./pages/WebAppsPage";
+import "./pages/DesignPages";
+import MobileAppsPage from "./pages/MobileAppsPage";
+import WebAppsPage from "./pages/WebAppsPage";
+import DesignPages from "./pages/DesignPages";
+import { Helmet } from "react-helmet";
 
-class App extends React.Component{
-
-  state={
+class App extends React.Component {
+  state = {
     currentPage: 0,
-    indicationItem: 'indicationLine'
-  }
+    indicationItem: "indicationLine",
+  };
 
-  activateMobileApps = ()=>{
-    this.setState({ currentPage: 1 })
-    this.setState({indicationItem: 'indicationLine activeMA'})
-  } 
+  activateMobileApps = () => {
+    this.setState({ currentPage: 1 });
+    this.setState({ indicationItem: "indicationLine activeMA" });
+  };
 
-  activateWebApps = ()=>{
-    this.setState({ currentPage: 2 })
-    this.setState({indicationItem: 'indicationLine activeWA'})
-  } 
+  activateWebApps = () => {
+    this.setState({ currentPage: 2 });
+    this.setState({ indicationItem: "indicationLine activeWA" });
+  };
 
-  activateDesignWorks = ()=>{
-    this.setState({ currentPage: 3 })
-    this.setState({indicationItem: 'indicationLine activeDW'})
-  }
+  activateDesignWorks = () => {
+    this.setState({ currentPage: 3 });
+    this.setState({ indicationItem: "indicationLine activeDW" });
+  };
 
-  componentDidMount(){
-    let currentPageName = window.location.href
-    let index = currentPageName.lastIndexOf('/')
-    currentPageName = currentPageName.slice(index+1, currentPageName.length)
-    
+  componentDidMount() {
+    let currentPageName = window.location.href;
+    let index = currentPageName.lastIndexOf("/");
+    currentPageName = currentPageName.slice(index + 1, currentPageName.length);
+
     switch (currentPageName) {
-
-      case 'mobileapps':
-      case 'portfolio':
-      case '':
-        this.setState({currentPage: 1})
-        this.setState({indicationItem: 'indicationLine activeMA'})
+      case "mobileapps":
+      case "portfolio":
+      case "":
+        this.setState({ currentPage: 1 });
+        this.setState({ indicationItem: "indicationLine activeMA" });
         break;
 
-      case 'webapps':
-        this.setState({ currentPage: 2 })
-        this.setState({indicationItem: 'indicationLine activeWA'})
+      case "webapps":
+        this.setState({ currentPage: 2 });
+        this.setState({ indicationItem: "indicationLine activeWA" });
         break;
 
-      case 'designworks':
-        this.setState({currentPage: 3})
-        this.setState({indicationItem: 'indicationLine activeDW'})
+      case "designworks":
+        this.setState({ currentPage: 3 });
+        this.setState({ indicationItem: "indicationLine activeDW" });
         break;
-    
+
       default:
         break;
     }
   }
 
-  render(){
+  render() {
     return (
-      <BrowserRouter basename='/portfolio'>
+      <HashRouter basename="/">
         <Helmet>
           <title>Zhou's Portfolio</title>
         </Helmet>
-        <header className='appHeader'>
-
-        </header>
+        <header className="appHeader"></header>
 
         <nav>
           <span className={this.state.indicationItem}></span>
-          <Link to='/mobileapps'
-          onClick={ this.activateMobileApps }
-          className={ this.state.currentPage === 1 ? 'active' : '' }>
+          <Link
+            to="/mobileapps"
+            onClick={this.activateMobileApps}
+            className={this.state.currentPage === 1 ? "active" : ""}
+          >
             Mobile Apps
           </Link>
 
-          <Link
-          onClick={this.activateWebApps }
-          className={ this.state.currentPage === 2 ? "active" : '' }
-          to='/webapps'>
+          <Link onClick={this.activateWebApps} className={this.state.currentPage === 2 ? "active" : ""} to="/webapps">
             Web Apps
           </Link>
 
-          <Link 
-          onClick={ this.activateDesignWorks }
-          className={ this.state.currentPage === 3 ? "active" : '' }
-          to='/designworks'>
+          <Link
+            onClick={this.activateDesignWorks}
+            className={this.state.currentPage === 3 ? "active" : ""}
+            to="/designworks"
+          >
             Design Works
           </Link>
         </nav>
 
         <Switch>
-          <Route exact path={['/mobileapps', '/']}>
-            <MobileAppsPage/>
+          <Route exact path={["/mobileapps", "/"]}>
+            <MobileAppsPage />
           </Route>
 
-          <Route path='/webapps'>
-            <WebAppsPage/>
+          <Route path="/webapps">
+            <WebAppsPage />
           </Route>
 
-          <Route path='/designworks'>
-            <DesignPages/>
+          <Route path="/designworks">
+            <DesignPages />
           </Route>
         </Switch>
-
-
-      </BrowserRouter>
-
-    )
+      </HashRouter>
+    );
   }
 }
 

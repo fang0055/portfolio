@@ -40,19 +40,19 @@ nav a{
 
 .activeMA{
   width: 100px;
-  transform: translate(-251px, 24px);
+  transform: translate(-211px, 24px);
   transition: all 0.3s ease-out;
 }
 
 .activeWA{
   width: 80px;
-  transform: translate(-46px, 24px);
+  transform: translate(-6px, 24px);
   transition: all 0.3s ease-out;
 }
 
 .activeDW{
   width: 110px;
-  transform: translate(164px, 24px);
+  transform: translate(203px, 24px);
   transition: all 0.3s ease-out;
 }
 
