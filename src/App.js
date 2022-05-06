@@ -36,19 +36,19 @@ class App extends React.Component {
     currentPageName = currentPageName.slice(index + 1, currentPageName.length);
 
     switch (currentPageName) {
-      case "mobileapps":
+      case "mobile-apps":
       case "portfolio":
       case "":
         this.setState({ currentPage: 1 });
         this.setState({ indicationItem: "indicationLine activeMA" });
         break;
 
-      case "webapps":
+      case "web-apps":
         this.setState({ currentPage: 2 });
         this.setState({ indicationItem: "indicationLine activeWA" });
         break;
 
-      case "designworks":
+      case "design-works":
         this.setState({ currentPage: 3 });
         this.setState({ indicationItem: "indicationLine activeDW" });
         break;
@@ -69,36 +69,36 @@ class App extends React.Component {
         <nav>
           <span className={this.state.indicationItem}></span>
           <Link
-            to="/mobileapps"
+            to="/mobile-apps"
             onClick={this.activateMobileApps}
             className={this.state.currentPage === 1 ? "active" : ""}
           >
             Mobile Apps
           </Link>
 
-          <Link onClick={this.activateWebApps} className={this.state.currentPage === 2 ? "active" : ""} to="/webapps">
+          <Link onClick={this.activateWebApps} className={this.state.currentPage === 2 ? "active" : ""} to="/web-apps">
             Web Apps
           </Link>
 
           <Link
             onClick={this.activateDesignWorks}
             className={this.state.currentPage === 3 ? "active" : ""}
-            to="/designworks"
+            to="/design-works"
           >
             Design Works
           </Link>
         </nav>
 
         <Switch>
-          <Route exact path={["/mobileapps", "/"]}>
+          <Route exact path={["/mobile-apps", "/"]}>
             <MobileAppsPage />
           </Route>
 
-          <Route path="/webapps">
+          <Route path="/web-apps">
             <WebAppsPage />
           </Route>
 
-          <Route path="/designworks">
+          <Route path="/design-works">
             <DesignPages />
           </Route>
         </Switch>
