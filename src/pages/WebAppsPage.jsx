@@ -1,7 +1,6 @@
-import React from 'react'
 import WebAppCard from '../components/WebAppsCard'
 
-function WebAppsPage(props) {
+function WebAppsPage() {
 
   const webAppsArray = [
     {

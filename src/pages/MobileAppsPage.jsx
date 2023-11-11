@@ -1,9 +1,8 @@
-import React from 'react'
 import './MobileAppsPage.css'
 import MobileAppsCard from '../components/MobileAppsCard'
 
 
-function MobileAppsPage(props) {
+function MobileAppsPage() {
 
   const mobileAppsArray = [
     {

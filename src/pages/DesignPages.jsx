@@ -1,7 +1,6 @@
-import React from 'react'
 import DesignWorksCard from '../components/DesignWorksCard'
 
-function DesignWorksPage(props) {
+function DesignWorksPage() {
 
   const designWorksArray = [
     {
