@@ -10,9 +10,9 @@ function WebAppsPage(props) {
       img: 'https://chi01pap002files.storage.live.com/y4m2jmLALW6l4ijSNxlSWtU2_n-J3KjyiitImIxUYj7rLijnGr4lrrKtBOM513Gqb-GNgeTx6p40SpWJIIJs-USVm4ZuopQDJt5yezQuYvifE5enjo0EgSrywwAh-vsqaZVcrc8gtBbNMsQkDK_YR_9VS6IvO_bVKUecTjga_GmU35GHJWej_DUBp0opBiVVznN?width=660&height=394&cropmode=none',
       hover: 'https://github.com/linkfang/portfolio-gifs/blob/master/cheerup.gif?raw=true',
       repo: 'https://linkcheerup.azurewebsites.net/',
-      preview: 'https://linkcheerup.azurewebsites.net/',
+      preview: 'https://cheerup-ten.vercel.app/',
       isPrivate: true,
-      moreInfo: "React, Spotify API, Azure"
+      moreInfo: "React, Spotify API, Vercel/Azure"
     },
     {
       id: 100,
