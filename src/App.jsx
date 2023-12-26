@@ -31,6 +31,8 @@ class App extends React.Component {
   };
 
   componentDidMount() {
+    window.location = 'https://portfolio-qwik-linkfang.vercel.app/web-apps/'
+    
     let currentPageName = window.location.href;
     let index = currentPageName.lastIndexOf("/");
     currentPageName = currentPageName.slice(index + 1, currentPageName.length);
